@@ -24,15 +24,12 @@
 			<%
 				String id = request.getParameter("id");
 			%>
-			<%
-				String pwd = request.getParameter("pwd");
-			%>
 			<label for="inputEmail" class="sr-only">Email address</label> <input
 				type="email" name="id" id="inputEmail" class="form-control"
 				placeholder="Email address" value="<%= id == null ? "" : id %>" required autofocus> <label
 				for="inputPassword" class="sr-only">Password</label> <input
 				type="password" name="pwd" id="inputPassword" class="form-control"
-				placeholder="Password" value="<%= pwd == null ? "" : pwd %>"required>
+				placeholder="Password" required>
 
 			<button class="btn btn-lg btn-primary btn-block" type="submit">Log
 				in</button>
