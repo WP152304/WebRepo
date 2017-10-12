@@ -13,7 +13,7 @@
 <body>
 <div class="container">
 
-  <form id="signupForm" class="form-signin" action="" method="post">
+  <form id="signupForm" class="form-signin" action="" method="post">	
     <h2 class="form-signin-heading">Please sign up</h2>
     
     <label for="inputEmail" class="sr-only">Email address</label>
